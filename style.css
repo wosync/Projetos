@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap");
+
+body {
+  background: #E89F2A;
+  font-family: "Smooch Sans", sans-serif;
+}
+.container {
+  background: #FFFFFF;
+  margin: 64px;
+  border-radius: 20px;;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font:-weight:700;
+  font-size: 36px
+}
+
+.titulo h3 {
+  font: weight:400;
+  font-size: 24px
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight:400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 100px;
+}
+    
+.projetos {
+  background: #E89F2A;
+  border-radius: 35px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction:column;
+  padding: 32px;
+  }
+.titulo {
+  list-style: none;
+  font-size: 40px;
+  font-weight: 800px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 40px;
+  font-weight: 400px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background: #000000;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .projetos {
+  background: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #FFFFFF;
+  border: 2px solid #f7f7f7;
+}
